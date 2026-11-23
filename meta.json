@@ -1,0 +1,49 @@
+{
+  "flows": [
+    {
+      "channel": "Meta",
+      "headline": "「赤ちゃんがすぐ寝る音楽」を試してみませんか？",
+      "paywall_opens_on": "the year (聴き放題年割プラン ¥10,200), under your survey: 約7割が寝付きへの効果を実感",
+      "note": "asks “どの音色から試しますか？” and plays that arrangement in the player, timer at 60 minutes, before any account"
+    },
+    {
+      "channel": "Google",
+      "headline": "聴く本で、すきま時間にインプット",
+      "paywall_opens_on": "the year as ¥850 a month, 38% less than monthly",
+      "note": "asks “通勤時間は片道どれくらい？” and plays this morning’s 聴く日経 at the speed that fits it: 13分31秒 at 1.5×"
+    },
+    {
+      "channel": "Google",
+      "headline": "挫折しない！聴く英語学習",
+      "paywall_opens_on": "the 30 days as three dates: 今日, 30日目まで, 31日目",
+      "note": "asks “英語を聴く目的は？” and plays the first English title at 0.8×"
+    }
+  ],
+  "prices": {
+    "yearly": "¥10,200",
+    "monthly": "¥1,380",
+    "trial": "30 days",
+    "source": "Japanese App Store listing, In-App Purchases (聴き放題年割プラン, 聴き放題月額プラン); the 30 days free from your Meta and Google ads and landing pages"
+  },
+  "today": {
+    "text": "every ad links to a web page where “まずは聴いてみる” opens a sign-up form, and the first listen is step 4, after the trial sign-up, an app download and a log-in",
+    "source": "audit_frames"
+  },
+  "asks": [
+    "どの音色から試しますか？",
+    "通勤時間は片道どれくらい？",
+    "英語を聴く目的は？"
+  ],
+  "paywall": {
+    "headline": "毎晩の寝かしつけに、通常Verのオルゴールを",
+    "uses_answers": true
+  },
+  "rebuild": "each ad opens its own first launch: the ad’s promise first, one question, the first listen before any account, a paywall with a different lead, and the account after the plan",
+  "ideas": [
+    {"n": 1, "title": "The first listen before any account", "screen": "First listen", "outcome": "CR +10–20%"},
+    {"n": 2, "title": "One question the ad didn’t answer", "screen": "One question", "outcome": "CR +5–15%"},
+    {"n": 3, "title": "Your proof where they decide", "screen": "Paywall", "outcome": "CR +5–10%"},
+    {"n": 4, "title": "The year at ¥850 a month", "screen": "Paywall", "outcome": "CR +5–15% · ARPU +10–20%"},
+    {"n": 5, "title": "Two real options on ✕", "screen": "On close", "outcome": "ARPU +5–10%"}
+  ]
+}
